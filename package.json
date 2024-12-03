@@ -1,0 +1,21 @@
+{
+  "name": "handlebars-inheritance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "rm -rf dist/ ; webpack && node dist/index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "handlebars": "^4.7.8",
+    "html-bundler-webpack-plugin": "^4.6.0",
+    "markdown-it": "^14.1.0",
+    "parse5": "^7.2.1",
+    "prismjs": "^1.29.0",
+    "webpack": "^5.97.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
