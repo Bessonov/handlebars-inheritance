@@ -1,0 +1,19 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Test: render Hundlebars template into static HTML</h1>
+    start
+    {{> header}}
+    {{outsideText}}
+    {{#> layout}}
+      {{#*inline "nav"}}
+        My Nav {{navText}}
+      {{/inline}}
+      {{#*inline "content"}}
+        My Content
+      {{/inline}}
+    {{/layout}}
+    end
+  </body>
+</html>
