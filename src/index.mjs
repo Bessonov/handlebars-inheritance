@@ -1,7 +1,11 @@
 import index from './index.hbs'
 
+console.log('should print a')
 console.log(index({
-  outsideText: 'test outside',
-  navText: 'test nav',
-  layoutText: 'test layout',
+  a: true,
+}))
+
+console.log('should print b')
+console.log(index({
+  b: true,
 }))
