@@ -28,11 +28,6 @@ export default {
 				},
 			} : {},
 			preprocessor: 'handlebars',
-			preprocessorOptions: {
-				partials: [
-					`./src/partials`,
-				],
-			},
 		}),
 	],
 }
